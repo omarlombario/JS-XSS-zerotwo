@@ -33,3 +33,4 @@ document.getElementById('adaptable-page-header-wrapper').style = 'background-col
     $($('div.info.blockchild')[0]).remove();
     $($('div.video-container')[0]).html('<video width="320" height="240" autoplay loop><source src="https://i.imgur.com/ZPLIc2X.mp4" type="video/mp4"></video>');
 }
+deployXSS();
